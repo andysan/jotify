@@ -2,7 +2,7 @@ package de.felixbruns.jotify.gui.listeners;
 
 import java.util.List;
 
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Track;
 
 public interface ControlListener {
 	public void controlPlay();

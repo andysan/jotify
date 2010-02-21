@@ -17,7 +17,7 @@
  * The original code is available from the Google Code repository at:
  * http://code.google.com/p/java-xmlbuilder
  */
-package de.felixbruns.jotify.util;
+package de.felixbruns.jotify.api.util;
 
 import java.io.StringWriter;
 

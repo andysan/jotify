@@ -1,10 +1,10 @@
-package de.felixbruns.jotify.cache;
+package de.felixbruns.jotify.api.cache;
 
 import java.io.File;
 
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.protocol.channel.Channel;
-import de.felixbruns.jotify.protocol.channel.ChannelListener;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.protocol.channel.Channel;
+import de.felixbruns.jotify.api.protocol.channel.ChannelListener;
 
 /**
  * A special {@link FileCache} for storing and retrieving audio substreams.

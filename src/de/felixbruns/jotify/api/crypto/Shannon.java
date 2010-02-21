@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.crypto;
+package de.felixbruns.jotify.api.crypto;
 
 /**
  * Implementation of the Shannon stream-cipher.

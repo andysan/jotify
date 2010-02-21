@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.media.parser;
+package de.felixbruns.jotify.api.media.parser;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -9,10 +9,10 @@ import java.util.StringTokenizer;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 
-import de.felixbruns.jotify.media.Playlist;
-import de.felixbruns.jotify.media.PlaylistConfirmation;
-import de.felixbruns.jotify.media.PlaylistContainer;
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Playlist;
+import de.felixbruns.jotify.api.media.PlaylistConfirmation;
+import de.felixbruns.jotify.api.media.PlaylistContainer;
+import de.felixbruns.jotify.api.media.Track;
 
 public class XMLPlaylistParser extends XMLParser implements XMLStreamConstants {
 	/**

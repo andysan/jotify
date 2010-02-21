@@ -6,13 +6,14 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import de.felixbruns.jotify.exceptions.AuthenticationException;
+import de.felixbruns.jotify.api.exceptions.AuthenticationException;
 
-import de.felixbruns.jotify.media.Playlist;
-import de.felixbruns.jotify.media.Result;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.media.User;
-import de.felixbruns.jotify.player.PlaybackAdapter;
+import de.felixbruns.jotify.api.JotifyConnection;
+import de.felixbruns.jotify.api.media.Playlist;
+import de.felixbruns.jotify.api.media.Result;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.media.User;
+import de.felixbruns.jotify.api.player.PlaybackAdapter;
 
 /**
  * A small commandline Spotify client using jotify.

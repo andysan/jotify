@@ -18,11 +18,11 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import de.felixbruns.jotify.Jotify;
+import de.felixbruns.jotify.api.Jotify;
 import de.felixbruns.jotify.gui.listeners.JotifyBroadcast;
 import de.felixbruns.jotify.gui.listeners.SearchListener;
 import de.felixbruns.jotify.gui.swing.components.JotifyButton;
-import de.felixbruns.jotify.media.Result;
+import de.felixbruns.jotify.api.media.Result;
 
 @SuppressWarnings("serial")
 public class JotifySearchPanel extends JPanel implements SearchListener {

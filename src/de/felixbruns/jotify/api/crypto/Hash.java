@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.crypto;
+package de.felixbruns.jotify.api.crypto;
 
 import java.security.InvalidKeyException;
 import java.security.MessageDigest;

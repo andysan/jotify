@@ -33,7 +33,7 @@ import javax.swing.event.HyperlinkEvent;
 import javax.swing.event.HyperlinkListener;
 import javax.swing.event.HyperlinkEvent.EventType;
 
-import de.felixbruns.jotify.Jotify;
+import de.felixbruns.jotify.api.Jotify;
 import de.felixbruns.jotify.gui.JotifyApplication;
 import de.felixbruns.jotify.gui.JotifyPlaybackQueue;
 import de.felixbruns.jotify.gui.listeners.BrowseListener;
@@ -44,13 +44,13 @@ import de.felixbruns.jotify.gui.listeners.SearchListener;
 import de.felixbruns.jotify.gui.swing.components.JotifyTable;
 import de.felixbruns.jotify.gui.swing.components.JotifyTableModel;
 import de.felixbruns.jotify.gui.swing.dnd.TrackListTransferable;
-import de.felixbruns.jotify.media.Album;
-import de.felixbruns.jotify.media.Artist;
-import de.felixbruns.jotify.media.Link;
-import de.felixbruns.jotify.media.Playlist;
-import de.felixbruns.jotify.media.Result;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.media.Link.InvalidSpotifyURIException;
+import de.felixbruns.jotify.api.media.Album;
+import de.felixbruns.jotify.api.media.Artist;
+import de.felixbruns.jotify.api.media.Link;
+import de.felixbruns.jotify.api.media.Playlist;
+import de.felixbruns.jotify.api.media.Result;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.media.Link.InvalidSpotifyURIException;
 
 @SuppressWarnings("serial")
 public class JotifyContentPanel extends JPanel implements HyperlinkListener, PlaylistListener, QueueListener, SearchListener, BrowseListener {

@@ -1,9 +1,9 @@
-package de.felixbruns.jotify.media;
+package de.felixbruns.jotify.api.media;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import de.felixbruns.jotify.util.Hex;
+import de.felixbruns.jotify.api.util.Hex;
 
 /**
  * Holds information about an album.

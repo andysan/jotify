@@ -1,4 +1,4 @@
-package de.felixbruns.jotify;
+package de.felixbruns.jotify.api;
 
 import java.awt.Image;
 import java.util.LinkedList;
@@ -8,17 +8,17 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-import de.felixbruns.jotify.exceptions.AuthenticationException;
-import de.felixbruns.jotify.exceptions.ConnectionException;
-import de.felixbruns.jotify.media.Album;
-import de.felixbruns.jotify.media.Artist;
-import de.felixbruns.jotify.media.Playlist;
-import de.felixbruns.jotify.media.PlaylistContainer;
-import de.felixbruns.jotify.media.Result;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.media.User;
-import de.felixbruns.jotify.player.PlaybackListener;
-import de.felixbruns.jotify.player.Player;
+import de.felixbruns.jotify.api.exceptions.AuthenticationException;
+import de.felixbruns.jotify.api.exceptions.ConnectionException;
+import de.felixbruns.jotify.api.media.Album;
+import de.felixbruns.jotify.api.media.Artist;
+import de.felixbruns.jotify.api.media.Playlist;
+import de.felixbruns.jotify.api.media.PlaylistContainer;
+import de.felixbruns.jotify.api.media.Result;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.media.User;
+import de.felixbruns.jotify.api.player.PlaybackListener;
+import de.felixbruns.jotify.api.player.Player;
 
 public class JotifyPool implements Jotify, Player {
 	private List<Jotify>          connectionList;

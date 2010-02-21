@@ -5,7 +5,7 @@ import java.awt.datatransfer.Transferable;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.io.IOException;
 
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Track;
 
 /**
  * Carries the information of a track over a drag-and-drop operation.

@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.protocol.channel;
+package de.felixbruns.jotify.api.protocol.channel;
 
 import java.nio.ByteBuffer;
 import java.util.LinkedList;
@@ -7,7 +7,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
-import de.felixbruns.jotify.util.GZIP;
+import de.felixbruns.jotify.api.util.GZIP;
 
 public class ChannelCallback implements ChannelListener {
 	private Semaphore        done;

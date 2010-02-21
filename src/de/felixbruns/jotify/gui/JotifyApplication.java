@@ -13,19 +13,19 @@ import java.util.concurrent.TimeoutException;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
-import de.felixbruns.jotify.Jotify;
-import de.felixbruns.jotify.JotifyPool;
-import de.felixbruns.jotify.exceptions.AuthenticationException;
-import de.felixbruns.jotify.exceptions.ConnectionException;
+import de.felixbruns.jotify.api.Jotify;
+import de.felixbruns.jotify.api.JotifyPool;
+import de.felixbruns.jotify.api.exceptions.AuthenticationException;
+import de.felixbruns.jotify.api.exceptions.ConnectionException;
 import de.felixbruns.jotify.gui.listeners.JotifyBroadcast;
 import de.felixbruns.jotify.gui.swing.JotifyFrame;
 import de.felixbruns.jotify.gui.swing.JotifyLoginDialog;
 import de.felixbruns.jotify.gui.util.JotifyLoginCredentials;
 import de.felixbruns.jotify.gui.util.JotifyPreferences;
-import de.felixbruns.jotify.media.Playlist;
-import de.felixbruns.jotify.media.PlaylistContainer;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.player.PlaybackListener;
+import de.felixbruns.jotify.api.media.Playlist;
+import de.felixbruns.jotify.api.media.PlaylistContainer;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.player.PlaybackListener;
 
 public class JotifyApplication {
 	/* Application frame and broadcast. */

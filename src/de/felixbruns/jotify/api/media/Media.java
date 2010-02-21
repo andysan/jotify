@@ -1,12 +1,12 @@
-package de.felixbruns.jotify.media;
+package de.felixbruns.jotify.api.media;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import de.felixbruns.jotify.media.Link.InvalidSpotifyURIException;
-import de.felixbruns.jotify.util.Hex;
+import de.felixbruns.jotify.api.media.Link.InvalidSpotifyURIException;
+import de.felixbruns.jotify.api.util.Hex;
 
 /**
  * Holds basic information about media.

@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.protocol;
+package de.felixbruns.jotify.api.protocol;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -13,17 +13,17 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import de.felixbruns.jotify.crypto.DH;
-import de.felixbruns.jotify.exceptions.ConnectionException;
-import de.felixbruns.jotify.exceptions.ProtocolException;
-import de.felixbruns.jotify.media.Playlist;
-import de.felixbruns.jotify.media.PlaylistContainer;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.protocol.channel.Channel;
-import de.felixbruns.jotify.protocol.channel.ChannelListener;
-import de.felixbruns.jotify.util.DNS;
-import de.felixbruns.jotify.util.Hex;
-import de.felixbruns.jotify.util.IntegerUtilities;
+import de.felixbruns.jotify.api.crypto.DH;
+import de.felixbruns.jotify.api.exceptions.ConnectionException;
+import de.felixbruns.jotify.api.exceptions.ProtocolException;
+import de.felixbruns.jotify.api.media.Playlist;
+import de.felixbruns.jotify.api.media.PlaylistContainer;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.protocol.channel.Channel;
+import de.felixbruns.jotify.api.protocol.channel.ChannelListener;
+import de.felixbruns.jotify.api.util.DNS;
+import de.felixbruns.jotify.api.util.Hex;
+import de.felixbruns.jotify.api.util.IntegerUtilities;
 
 public class Protocol {
 	/* Socket connection to Spotify server. */

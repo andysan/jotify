@@ -17,13 +17,13 @@ import javax.crypto.spec.SecretKeySpec;
 
 import com.sun.net.httpserver.HttpExchange;
 
-import de.felixbruns.jotify.cache.SubstreamCache;
-import de.felixbruns.jotify.exceptions.ProtocolException;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.player.SpotifyOggHeader;
-import de.felixbruns.jotify.protocol.Protocol;
-import de.felixbruns.jotify.protocol.channel.Channel;
-import de.felixbruns.jotify.protocol.channel.ChannelListener;
+import de.felixbruns.jotify.api.cache.SubstreamCache;
+import de.felixbruns.jotify.api.exceptions.ProtocolException;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.player.SpotifyOggHeader;
+import de.felixbruns.jotify.api.protocol.Protocol;
+import de.felixbruns.jotify.api.protocol.channel.Channel;
+import de.felixbruns.jotify.api.protocol.channel.ChannelListener;
 
 public class ChannelStreamer implements ChannelListener {
 	/* Decryption stuff. */

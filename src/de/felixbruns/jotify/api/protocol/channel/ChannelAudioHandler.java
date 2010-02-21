@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.protocol.channel;
+package de.felixbruns.jotify.api.protocol.channel;
 
 import java.io.IOException;
 import java.io.OutputStream;

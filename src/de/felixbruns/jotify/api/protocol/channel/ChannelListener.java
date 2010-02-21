@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.protocol.channel;
+package de.felixbruns.jotify.api.protocol.channel;
 
 public interface ChannelListener {
 	public void channelHeader(Channel channel, byte[] header);

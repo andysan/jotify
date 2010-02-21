@@ -14,7 +14,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 
-import de.felixbruns.jotify.Jotify;
+import de.felixbruns.jotify.api.Jotify;
 import de.felixbruns.jotify.gui.JotifyApplication;
 import de.felixbruns.jotify.gui.listeners.JotifyBroadcast;
 import de.felixbruns.jotify.gui.swing.panels.JotifyContentPanel;

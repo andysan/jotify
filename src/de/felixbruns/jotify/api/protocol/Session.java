@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.protocol;
+package de.felixbruns.jotify.api.protocol;
 
 import java.nio.ByteBuffer;
 import java.security.interfaces.RSAPublicKey;
@@ -7,16 +7,16 @@ import java.util.Random;
 
 import javax.crypto.interfaces.DHPublicKey;
 
-import de.felixbruns.jotify.crypto.DH;
-import de.felixbruns.jotify.crypto.Hash;
-import de.felixbruns.jotify.crypto.RSA;
-import de.felixbruns.jotify.crypto.RandomBytes;
-import de.felixbruns.jotify.crypto.Shannon;
-import de.felixbruns.jotify.crypto.DH.*;
-import de.felixbruns.jotify.crypto.RSA.RSAKeyPair;
-import de.felixbruns.jotify.exceptions.AuthenticationException;
-import de.felixbruns.jotify.exceptions.ConnectionException;
-import de.felixbruns.jotify.exceptions.ProtocolException;
+import de.felixbruns.jotify.api.crypto.DH;
+import de.felixbruns.jotify.api.crypto.Hash;
+import de.felixbruns.jotify.api.crypto.RSA;
+import de.felixbruns.jotify.api.crypto.RandomBytes;
+import de.felixbruns.jotify.api.crypto.Shannon;
+import de.felixbruns.jotify.api.crypto.DH.*;
+import de.felixbruns.jotify.api.crypto.RSA.RSAKeyPair;
+import de.felixbruns.jotify.api.exceptions.AuthenticationException;
+import de.felixbruns.jotify.api.exceptions.ConnectionException;
+import de.felixbruns.jotify.api.exceptions.ProtocolException;
 
 public class Session {
 	/* Spotify protocol to send and receive data. */

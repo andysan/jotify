@@ -7,7 +7,7 @@ import java.util.List;
 import javax.swing.table.AbstractTableModel;
 
 import de.felixbruns.jotify.gui.util.TimeFormatter;
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Track;
 
 @SuppressWarnings("serial")
 public class JotifyTableModel<T extends Track> extends AbstractTableModel {

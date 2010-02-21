@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.crypto;
+package de.felixbruns.jotify.api.crypto;
 
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;

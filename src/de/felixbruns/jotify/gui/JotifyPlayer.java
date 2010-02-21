@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeoutException;
 
-import de.felixbruns.jotify.Jotify;
-import de.felixbruns.jotify.exceptions.AuthenticationException;
-import de.felixbruns.jotify.exceptions.ConnectionException;
+import de.felixbruns.jotify.api.Jotify;
+import de.felixbruns.jotify.api.exceptions.AuthenticationException;
+import de.felixbruns.jotify.api.exceptions.ConnectionException;
 import de.felixbruns.jotify.gui.listeners.ControlListener;
 import de.felixbruns.jotify.gui.listeners.JotifyBroadcast;
 import de.felixbruns.jotify.gui.listeners.PlayerListener.Status;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.player.PlaybackListener;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.player.PlaybackListener;
 
 /*
  * This player backend listens for control events and playback events,

@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.player;
+package de.felixbruns.jotify.api.player;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -23,13 +23,13 @@ import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.SourceDataLine;
 import javax.sound.sampled.UnsupportedAudioFileException;
 
-import de.felixbruns.jotify.cache.SubstreamCache;
-import de.felixbruns.jotify.exceptions.ProtocolException;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.protocol.Protocol;
-import de.felixbruns.jotify.protocol.channel.Channel;
-import de.felixbruns.jotify.protocol.channel.ChannelListener;
-import de.felixbruns.jotify.util.MathUtilities;
+import de.felixbruns.jotify.api.cache.SubstreamCache;
+import de.felixbruns.jotify.api.exceptions.ProtocolException;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.protocol.Protocol;
+import de.felixbruns.jotify.api.protocol.channel.Channel;
+import de.felixbruns.jotify.api.protocol.channel.ChannelListener;
+import de.felixbruns.jotify.api.util.MathUtilities;
 
 public class ChannelPlayer implements Runnable, Player, ChannelListener {
 	/* 

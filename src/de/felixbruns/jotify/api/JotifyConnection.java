@@ -1,4 +1,4 @@
-package de.felixbruns.jotify;
+package de.felixbruns.jotify.api;
 
 import java.awt.Image;
 import java.io.ByteArrayInputStream;
@@ -9,16 +9,16 @@ import java.util.concurrent.*;
 
 import javax.imageio.ImageIO;
 
-import de.felixbruns.jotify.cache.*;
-import de.felixbruns.jotify.crypto.*;
-import de.felixbruns.jotify.exceptions.*;
-import de.felixbruns.jotify.media.*;
-import de.felixbruns.jotify.media.Link.InvalidSpotifyURIException;
-import de.felixbruns.jotify.media.parser.*;
-import de.felixbruns.jotify.player.*;
-import de.felixbruns.jotify.protocol.*;
-import de.felixbruns.jotify.protocol.channel.*;
-import de.felixbruns.jotify.util.*;
+import de.felixbruns.jotify.api.cache.*;
+import de.felixbruns.jotify.api.crypto.*;
+import de.felixbruns.jotify.api.exceptions.*;
+import de.felixbruns.jotify.api.media.*;
+import de.felixbruns.jotify.api.media.Link.InvalidSpotifyURIException;
+import de.felixbruns.jotify.api.media.parser.*;
+import de.felixbruns.jotify.api.player.*;
+import de.felixbruns.jotify.api.protocol.*;
+import de.felixbruns.jotify.api.protocol.channel.*;
+import de.felixbruns.jotify.api.util.*;
 
 public class JotifyConnection implements Jotify, CommandListener {
 	private Session   session;

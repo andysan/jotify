@@ -1,6 +1,6 @@
-package de.felixbruns.jotify.player;
+package de.felixbruns.jotify.api.player;
 
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Track;
 
 public interface PlaybackListener {
 	public void playbackStarted(Track track);

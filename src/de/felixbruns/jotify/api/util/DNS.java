@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.util;
+package de.felixbruns.jotify.api.util;
 
 import java.net.InetSocketAddress;
 import java.util.ArrayList;

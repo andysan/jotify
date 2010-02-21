@@ -1,8 +1,8 @@
-package de.felixbruns.jotify.player;
+package de.felixbruns.jotify.api.player;
 
 import java.util.concurrent.TimeoutException;
 
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Track;
 
 public interface Player {
 	public void play(Track track, PlaybackListener listener) throws TimeoutException;

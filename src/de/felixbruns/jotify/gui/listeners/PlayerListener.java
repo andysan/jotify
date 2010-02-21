@@ -1,6 +1,6 @@
 package de.felixbruns.jotify.gui.listeners;
 
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Track;
 
 public interface PlayerListener {
 	public void playerTrackChanged(Track track);

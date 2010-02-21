@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.util;
+package de.felixbruns.jotify.api.util;
 
 /**
  * Class providing methods to convert between hexadecimal strings and byte arrays.

@@ -2,14 +2,14 @@ package de.felixbruns.jotify.gateway.handlers;
 
 import java.util.Map;
 
-import de.felixbruns.jotify.crypto.Hash;
-import de.felixbruns.jotify.crypto.RandomBytes;
-import de.felixbruns.jotify.exceptions.AuthenticationException;
-import de.felixbruns.jotify.exceptions.ConnectionException;
+import de.felixbruns.jotify.api.crypto.Hash;
+import de.felixbruns.jotify.api.crypto.RandomBytes;
+import de.felixbruns.jotify.api.exceptions.AuthenticationException;
+import de.felixbruns.jotify.api.exceptions.ConnectionException;
 import de.felixbruns.jotify.gateway.GatewayConnection;
 import de.felixbruns.jotify.gateway.GatewayApplication;
 import de.felixbruns.jotify.gateway.GatewayHandler;
-import de.felixbruns.jotify.util.Hex;
+import de.felixbruns.jotify.api.util.Hex;
 
 public class LoginHandler extends GatewayHandler {
 	public String handle(Map<String, String> params){

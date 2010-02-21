@@ -1,6 +1,6 @@
 package de.felixbruns.jotify.gui.listeners;
 
-import de.felixbruns.jotify.media.Playlist;
+import de.felixbruns.jotify.api.media.Playlist;
 
 public interface PlaylistListener {
 	public void playlistAdded(Playlist playlist);

@@ -5,11 +5,11 @@ import java.util.List;
 
 import de.felixbruns.jotify.gui.JotifyPlaybackQueue;
 import de.felixbruns.jotify.gui.listeners.PlayerListener.Status;
-import de.felixbruns.jotify.media.Album;
-import de.felixbruns.jotify.media.Artist;
-import de.felixbruns.jotify.media.Playlist;
-import de.felixbruns.jotify.media.Result;
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Album;
+import de.felixbruns.jotify.api.media.Artist;
+import de.felixbruns.jotify.api.media.Playlist;
+import de.felixbruns.jotify.api.media.Result;
+import de.felixbruns.jotify.api.media.Track;
 
 public class JotifyBroadcast {
 	private List<PlaylistListener> playlistListeners;

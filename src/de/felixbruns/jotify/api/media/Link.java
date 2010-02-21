@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.media;
+package de.felixbruns.jotify.api.media;
 
 import java.io.UnsupportedEncodingException;
 
@@ -8,7 +8,7 @@ import java.net.URLEncoder;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import de.felixbruns.jotify.util.BaseConvert;
+import de.felixbruns.jotify.api.util.BaseConvert;
 
 /**
  * Represents a link (Spotify URI) to a media object.

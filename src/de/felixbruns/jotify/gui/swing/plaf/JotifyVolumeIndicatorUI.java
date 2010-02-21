@@ -10,7 +10,7 @@ import javax.swing.JComponent;
 import javax.swing.plaf.basic.BasicPanelUI;
 
 import de.felixbruns.jotify.gui.swing.components.JotifyVolumeIndicator;
-import de.felixbruns.jotify.util.MathUtilities;
+import de.felixbruns.jotify.api.util.MathUtilities;
 
 public class JotifyVolumeIndicatorUI extends BasicPanelUI {
 	public void paint(Graphics graphics, JComponent component){

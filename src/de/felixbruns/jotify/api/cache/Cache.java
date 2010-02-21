@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.cache;
+package de.felixbruns.jotify.api.cache;
 
 import java.util.List;
 

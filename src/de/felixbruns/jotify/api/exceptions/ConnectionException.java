@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.exceptions;
+package de.felixbruns.jotify.api.exceptions;
 
 /**
  * An exception that is thrown if something is wrong with the connection.

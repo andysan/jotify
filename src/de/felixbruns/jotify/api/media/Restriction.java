@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.media;
+package de.felixbruns.jotify.api.media;
 
 /**
  * Holds restriction information of media. Every operation in this class

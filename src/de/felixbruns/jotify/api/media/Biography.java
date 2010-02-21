@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.media;
+package de.felixbruns.jotify.api.media;
 
 import java.util.ArrayList;
 import java.util.List;

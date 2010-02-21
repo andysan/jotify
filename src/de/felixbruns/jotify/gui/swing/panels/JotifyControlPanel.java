@@ -30,8 +30,8 @@ import de.felixbruns.jotify.gui.swing.components.JotifyPreviousButton;
 import de.felixbruns.jotify.gui.swing.components.JotifySlider;
 import de.felixbruns.jotify.gui.swing.components.JotifyVolumeIndicator;
 import de.felixbruns.jotify.gui.util.TimeFormatter;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.util.MathUtilities;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.util.MathUtilities;
 
 @SuppressWarnings("serial")
 public class JotifyControlPanel extends JPanel implements QueueListener, PlayerListener {

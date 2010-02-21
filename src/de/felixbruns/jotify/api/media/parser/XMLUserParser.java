@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.media.parser;
+package de.felixbruns.jotify.api.media.parser;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -6,7 +6,7 @@ import java.io.InputStream;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 
-import de.felixbruns.jotify.media.User;
+import de.felixbruns.jotify.api.media.User;
 
 public class XMLUserParser extends XMLParser implements XMLStreamConstants {
 	/**

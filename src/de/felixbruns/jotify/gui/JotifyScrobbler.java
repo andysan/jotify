@@ -2,9 +2,9 @@ package de.felixbruns.jotify.gui;
 
 import java.io.IOException;
 
-import de.felixbruns.jotify.exceptions.AuthenticationException;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.player.PlaybackListener;
+import de.felixbruns.jotify.api.exceptions.AuthenticationException;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.player.PlaybackListener;
 
 import net.roarsoftware.lastfm.scrobble.Scrobbler;
 import net.roarsoftware.lastfm.scrobble.Source;

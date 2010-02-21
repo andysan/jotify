@@ -13,8 +13,8 @@ import javax.swing.JList;
 import javax.swing.ListSelectionModel;
 import javax.swing.border.EmptyBorder;
 
-import de.felixbruns.jotify.media.Playlist;
-import de.felixbruns.jotify.media.Result;
+import de.felixbruns.jotify.api.media.Playlist;
+import de.felixbruns.jotify.api.media.Result;
 import de.felixbruns.jotify.gui.listeners.PlaylistListener;
 import de.felixbruns.jotify.gui.listeners.JotifyBroadcast;
 

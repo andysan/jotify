@@ -13,8 +13,8 @@ import com.sun.net.httpserver.Headers;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
-import de.felixbruns.jotify.cache.Cache;
-import de.felixbruns.jotify.cache.FileCache;
+import de.felixbruns.jotify.api.cache.Cache;
+import de.felixbruns.jotify.api.cache.FileCache;
 import de.felixbruns.jotify.gateway.GatewayConnection;
 import de.felixbruns.jotify.gateway.GatewayApplication;
 import de.felixbruns.jotify.gateway.util.URIUtilities;

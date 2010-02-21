@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.protocol;
+package de.felixbruns.jotify.api.protocol;
 
 public class Command {
 	/* Core functionality. */

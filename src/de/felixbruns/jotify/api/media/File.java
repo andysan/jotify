@@ -1,6 +1,6 @@
-package de.felixbruns.jotify.media;
+package de.felixbruns.jotify.api.media;
 
-import de.felixbruns.jotify.util.Hex;
+import de.felixbruns.jotify.api.util.Hex;
 
 /**
  * Holds information about a file.

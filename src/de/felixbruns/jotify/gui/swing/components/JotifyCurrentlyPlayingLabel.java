@@ -15,7 +15,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JPanel;
 import javax.swing.Timer;
 
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Track;
 
 @SuppressWarnings("serial")
 public class JotifyCurrentlyPlayingLabel extends JPanel {

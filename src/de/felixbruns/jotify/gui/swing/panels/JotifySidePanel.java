@@ -13,7 +13,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import de.felixbruns.jotify.Jotify;
+import de.felixbruns.jotify.api.Jotify;
 import de.felixbruns.jotify.gui.JotifyPlaybackQueue;
 import de.felixbruns.jotify.gui.listeners.ClearSelectionListener;
 import de.felixbruns.jotify.gui.listeners.JotifyBroadcast;
@@ -25,9 +25,9 @@ import de.felixbruns.jotify.gui.swing.JotifyPreferencesDialog;
 import de.felixbruns.jotify.gui.swing.components.JotifyList;
 import de.felixbruns.jotify.gui.swing.components.JotifyList.JotifyListElement;
 import de.felixbruns.jotify.gui.swing.dnd.TrackListTransferable;
-import de.felixbruns.jotify.media.Playlist;
-import de.felixbruns.jotify.media.Result;
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Playlist;
+import de.felixbruns.jotify.api.media.Result;
+import de.felixbruns.jotify.api.media.Track;
 
 @SuppressWarnings("serial")
 public class JotifySidePanel extends JPanel implements PlaylistListener, QueueListener, SearchListener, PlayerListener, ClearSelectionListener {

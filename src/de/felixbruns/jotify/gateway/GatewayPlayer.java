@@ -1,12 +1,12 @@
 package de.felixbruns.jotify.gateway;
 
-import de.felixbruns.jotify.exceptions.ProtocolException;
-import de.felixbruns.jotify.media.Track;
-import de.felixbruns.jotify.player.ChannelPlayer;
-import de.felixbruns.jotify.player.PlaybackListener;
-import de.felixbruns.jotify.player.Player;
-import de.felixbruns.jotify.protocol.Protocol;
-import de.felixbruns.jotify.protocol.channel.ChannelCallback;
+import de.felixbruns.jotify.api.exceptions.ProtocolException;
+import de.felixbruns.jotify.api.media.Track;
+import de.felixbruns.jotify.api.player.ChannelPlayer;
+import de.felixbruns.jotify.api.player.PlaybackListener;
+import de.felixbruns.jotify.api.player.Player;
+import de.felixbruns.jotify.api.protocol.Protocol;
+import de.felixbruns.jotify.api.protocol.channel.ChannelCallback;
 
 public class GatewayPlayer implements Player {
 	private Protocol      protocol;

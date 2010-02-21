@@ -1,10 +1,10 @@
-package de.felixbruns.jotify.protocol.channel;
+package de.felixbruns.jotify.api.protocol.channel;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import de.felixbruns.jotify.util.ShortUtilities;
+import de.felixbruns.jotify.api.util.ShortUtilities;
 
 public class Channel {
 	/* Static channel id counter. */

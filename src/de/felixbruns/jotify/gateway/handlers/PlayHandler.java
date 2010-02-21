@@ -5,8 +5,8 @@ import java.util.Map;
 import de.felixbruns.jotify.gateway.GatewayConnection;
 import de.felixbruns.jotify.gateway.GatewayApplication;
 import de.felixbruns.jotify.gateway.GatewayHandler;
-import de.felixbruns.jotify.media.File;
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.File;
+import de.felixbruns.jotify.api.media.Track;
 
 public class PlayHandler extends GatewayHandler {
 	public String handle(Map<String, String> params){

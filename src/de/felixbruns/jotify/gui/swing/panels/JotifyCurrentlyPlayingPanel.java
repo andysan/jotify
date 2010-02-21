@@ -11,9 +11,9 @@ import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import de.felixbruns.jotify.Jotify;
+import de.felixbruns.jotify.api.Jotify;
 import de.felixbruns.jotify.gui.swing.components.JotifyCurrentlyPlayingLabel;
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Track;
 
 @SuppressWarnings("serial")
 public class JotifyCurrentlyPlayingPanel extends JPanel {

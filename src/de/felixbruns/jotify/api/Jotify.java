@@ -1,12 +1,12 @@
-package de.felixbruns.jotify;
+package de.felixbruns.jotify.api;
 
 import java.awt.Image;
 import java.util.List;
 import java.util.concurrent.TimeoutException;
 
-import de.felixbruns.jotify.exceptions.*;
-import de.felixbruns.jotify.media.*;
-import de.felixbruns.jotify.player.Player;
+import de.felixbruns.jotify.api.exceptions.*;
+import de.felixbruns.jotify.api.media.*;
+import de.felixbruns.jotify.api.player.Player;
 
 public interface Jotify extends Runnable, Player {
 	/**

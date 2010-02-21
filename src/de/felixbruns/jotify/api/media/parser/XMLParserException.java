@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.media.parser;
+package de.felixbruns.jotify.api.media.parser;
 
 import javax.xml.stream.Location;
 

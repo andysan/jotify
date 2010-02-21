@@ -3,8 +3,8 @@ package de.felixbruns.jotify.gateway.handlers;
 import java.util.List;
 import java.util.Map;
 
-import de.felixbruns.jotify.cache.Cache;
-import de.felixbruns.jotify.cache.FileCache;
+import de.felixbruns.jotify.api.cache.Cache;
+import de.felixbruns.jotify.api.cache.FileCache;
 import de.felixbruns.jotify.gateway.GatewayHandler;
 
 public class StartHandler extends GatewayHandler {

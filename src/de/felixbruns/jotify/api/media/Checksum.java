@@ -1,8 +1,8 @@
-package de.felixbruns.jotify.media;
+package de.felixbruns.jotify.api.media;
 
 import java.util.zip.Adler32;
 
-import de.felixbruns.jotify.util.Hex;
+import de.felixbruns.jotify.api.util.Hex;
 
 /**
  * Subclass of {@link Adler32}, supplying methods to calculate

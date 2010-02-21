@@ -1,4 +1,4 @@
-package de.felixbruns.jotify.media.parser;
+package de.felixbruns.jotify.api.media.parser;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -11,14 +11,14 @@ import java.util.Map;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 
-import de.felixbruns.jotify.media.Album;
-import de.felixbruns.jotify.media.Artist;
-import de.felixbruns.jotify.media.Biography;
-import de.felixbruns.jotify.media.Disc;
-import de.felixbruns.jotify.media.File;
-import de.felixbruns.jotify.media.Restriction;
-import de.felixbruns.jotify.media.Result;
-import de.felixbruns.jotify.media.Track;
+import de.felixbruns.jotify.api.media.Album;
+import de.felixbruns.jotify.api.media.Artist;
+import de.felixbruns.jotify.api.media.Biography;
+import de.felixbruns.jotify.api.media.Disc;
+import de.felixbruns.jotify.api.media.File;
+import de.felixbruns.jotify.api.media.Restriction;
+import de.felixbruns.jotify.api.media.Result;
+import de.felixbruns.jotify.api.media.Track;
 
 public class XMLMediaParser extends XMLParser implements XMLStreamConstants {
 	private static final int SUPPORTED_RESULT_VERSION = 1;

@@ -1,0 +1,85 @@
+<project name="Jotify" default="compile">
+  <description>
+    Build file for Jotify.
+  </description>
+
+  <!-- set properties for this build -->
+  <property environment="env"/>
+
+  <property name="src.dir" location="src"/>
+  <property name="bin.dir" location="bin"/>
+  <property name="build.dir" location="build"/>
+  <property name="docs.dir" location="docs"/>
+  <property name="lib.dir" location="lib"/>
+
+  <path id="build.classpath">
+    <fileset dir="${lib.dir}">
+      <include name="**/*.jar" />
+    </fileset>
+  </path>
+
+  <target name="init">
+    <tstamp/>
+
+    <mkdir dir="${build.dir}"/>
+  </target>
+  
+  <!-- deletes class files -->
+  <target name="clean"
+	  description="clean up all generated files">
+    <delete dir="${build.dir}"/>
+    <delete dir="${bin.dir}"/>
+    <delete dir="${docs.dir}"/>
+  </target>
+
+  <target name="compile" depends="init"
+	  description="compile the source" >
+    <javac srcdir="${src.dir}" destdir="${build.dir}">
+      <classpath refid="build.classpath"/>
+    </javac>
+    <copy todir="${build.dir}">
+      <fileset dir="${src.dir}">
+	<include name="**/images/**"/>
+	<include name="**/resources/**"/>
+      </fileset>
+    </copy>
+  </target>
+
+  <target name="jar" depends="compile">
+    <pathconvert property="jar.classpath" pathsep=" ">
+      <path refid="build.classpath"/>
+      <chainedmapper>
+	<flattenmapper/>
+	<globmapper from="*" to="lib/*"/>
+      </chainedmapper>
+    </pathconvert>
+
+    <jar destfile="jotify.jar" basedir="${build.dir}">
+      <manifest>
+	<attribute name="Main-Class" value="de.felixbruns.jotify.gui.JotifyApplication"/>
+	<attribute name="Class-Path" value="${jar.classpath}"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="javadoc"
+	  description="builds the javadoc documentation in HTML format.">
+    <mkdir dir="${docs.dir}"/>
+    <javadoc encoding="utf-8"
+	     destdir="${docs.dir}"
+	     charset="utf-8"
+	     locale="en_US"
+	     author="true"
+	     access="protected"
+	     windowtitle="Jotify API documentation">
+      <tag name="category" description="Category:" scope="types"/>
+      <classpath>
+	<pathelement location="${lib.dir}/json.jar"/>
+	<pathelement location="${lib.dir}/last.fm-bindings.jar"/>
+      </classpath>
+      <fileset dir="${src.dir}">
+	<include name="**/*.java"/>
+      </fileset>
+    </javadoc>
+  </target>
+</project>

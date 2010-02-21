@@ -54,10 +54,30 @@
       </chainedmapper>
     </pathconvert>
 
-    <jar destfile="jotify.jar" basedir="${build.dir}">
+    <jar destfile="jotify-api.jar">
+      <fileset dir="${build.dir}">
+	<include name="de/felixbruns/jotify/api/**"/>
+      </fileset>
+      <manifest>
+	<attribute name="Class-Path" value="${jar.classpath}"/>
+      </manifest>
+    </jar>
+    <jar destfile="jotify-gui.jar">
+      <fileset dir="${build.dir}">
+	<include name="de/felixbruns/jotify/gui/**"/>
+      </fileset>
       <manifest>
 	<attribute name="Main-Class" value="de.felixbruns.jotify.gui.JotifyApplication"/>
-	<attribute name="Class-Path" value="${jar.classpath}"/>
+	<attribute name="Class-Path" value="jotify-api.jar"/>
+      </manifest>
+    </jar>
+    <jar destfile="jotify-gateway.jar">
+      <fileset dir="${build.dir}">
+	<include name="de/felixbruns/jotify/gateway/**"/>
+      </fileset>
+      <manifest>
+	<attribute name="Main-Class" value="de.felixbruns.jotify.gateway.GatewayApplication"/>
+	<attribute name="Class-Path" value="jotify-api.jar"/>
       </manifest>
     </jar>
   </target>
@@ -78,7 +98,7 @@
 	<pathelement location="${lib.dir}/last.fm-bindings.jar"/>
       </classpath>
       <fileset dir="${src.dir}">
-	<include name="**/*.java"/>
+	<include name="de/felixbruns/jotify/api/**/*.java"/>
       </fileset>
     </javadoc>
   </target>

@@ -1,3 +1,5 @@
 build
 docs
-jotify.jar
+jotify-api.jar
+jotify-gui.jar
+jotify-gateway.jar

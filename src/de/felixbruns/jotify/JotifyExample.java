@@ -9,6 +9,7 @@ import java.util.regex.Pattern;
 import de.felixbruns.jotify.api.exceptions.AuthenticationException;
 
 import de.felixbruns.jotify.api.JotifyConnection;
+import de.felixbruns.jotify.api.media.File;
 import de.felixbruns.jotify.api.media.Playlist;
 import de.felixbruns.jotify.api.media.Result;
 import de.felixbruns.jotify.api.media.Track;
@@ -246,7 +247,7 @@ public class JotifyExample {
 			);
 			
 			/* Start playing (without a PlaybackListener). */
-			jotify.play(track, new PlaybackAdapter(){
+			jotify.play(track, File.BITRATE_160, new PlaybackAdapter(){
 				public void playbackFinished(Track track){
 					try{
 						play(++position);

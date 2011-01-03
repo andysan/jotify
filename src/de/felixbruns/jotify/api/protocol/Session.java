@@ -81,7 +81,7 @@ public class Session {
 	protected byte[] initialServerPacket;
 	
 	/* Always up to date! ;-P */
-	public static final int CLIENT_REVISION = 99998;
+	public static final int CLIENT_REVISION = 99999;
 	
 	/* Constructor for a new spotify session. */
 	public Session(){
